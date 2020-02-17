@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
 .static{
+  display: block;
+  background-image: url(https://media.giphy.com/media/l41K3o5TzvmhZwd4A/giphy.gif);
+  background-size: cover;
   box-sizing: border-box;
   height: 100vh;
-  width:100
+  width:100vw;
+}
+h1{
+  display: block;
+  font-size: 120px;
+  color:#fff;
+  text-align:center;
+  margin-top:none;
+}
+body{
+ font-family: 'Squada One', cursive;
+
 }
