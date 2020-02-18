@@ -1,20 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
 .static{
-  display: block;
-  background-image: url(https://media.giphy.com/media/l41K3o5TzvmhZwd4A/giphy.gif);
-  background-size: cover;
-  box-sizing: border-box;
-  height: 100vh;
-  width:100vw;
+background-image: url(https://media.giphy.com/media/l41K3o5TzvmhZwd4A/giphy.gif);
+  height:100%;
+  width:100%;
+}
+
+.tv{
+background-image:url(https://lh3.googleusercontent.com/proxy/NxeohmyNu23swkvuenhcEb1rvtGdUAtV0YzRB6lz1RjAex0gBUCRKe-fawtXhRLDEwDpXojjoBwGv8TfHkPlMFHjOUY);
+position: absolute;
+top:0;
+bottom:0;
+}
+
+.page2background{
+    background-image: url(https://lh3.googleusercontent.com/proxy/NxeohmyNu23swkvuenhcEb1rvtGdUAtV0YzRB6lz1RjAex0gBUCRKe-fawtXhRLDEwDpXojjoBwGv8TfHkPlMFHjOUY);
 }
 h1{
   display: block;
+  /*outline: 5px dotted green;*/
   font-size: 120px;
   color:#fff;
   text-align:center;
   margin-top:none;
 }
+label{
+  color: #fff;
+  font-size: 24px;
+}
+a{
+  text-align:center;
+  color: #fff;
+  font-size: 50px;
+  padding-left: 30px;
+  padding right: 30px;
+}
+
+.a{
+  text-align:center;
+  color:black;
+}
 body{
  font-family: 'Squada One', cursive;
-
+ margin: none;
+}
+p{
+  outline-style:solid;
+  outline-width: thick;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px
+  margin-bottom:20px;
+  outline-color: black;
+  font-size: 50px;
+  text-align: center;
+}
+.box{
+  width:100px
 }
