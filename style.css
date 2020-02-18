@@ -44,8 +44,7 @@ body{
  margin: none;
 }
 p{
-  outline-style:solid;
-  outline-width: thick;
+  background-color: white;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 20px
